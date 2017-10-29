@@ -1,0 +1,111 @@
+/*1°-Asignamos los estilos de nuestras clases reutilizables, estas evitarán volver a insertan el mismo estilo a cada etiqueta html*/
+
+* {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    line-height: 1.71429;
+    outline: 1px solid rgb(99, 8, 99)
+}
+
+/*Se inserta margen general en cero para no tener inconvenientes con los margenes que se asignan por defecto a las etiquetas de nivel bloque*/
+
+img{
+    max-width:100%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*------------------------nav-------------------------------*/
+
+/*- usamos POSITION:FIXED para darle el efecto caracteristico a la barra de navegación
+-Fijamos el padding en nav porque creemos que al ser el contenedor principal , debe de cimentar los margenes de comportamiento de los elementos hijo.
+*/
+
+
+nav{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
+    padding: 22px 136px 24px 156px;
+    background-color: #2c3e50;
+}
+
+.container_nav{
+height: auto;
+font-family: 'Montserrat',sans-serif;
+font-weight: 700;
+color:#fff;
+}
+
+/*mediante FLOAT:LEFT y FLOAT:RIGHT cambiamos el comportamiento a las etiquetas navbar_name y navbar_list y ambas tendran como referente a la etiqueta padre nav, que esta posicionado con FIXED.*/
+
+.navbar_name{
+float: left;
+}
+
+.name_page{
+    display: block;
+    padding-top: 2px;
+    font-size:34px;
+    font-weight:700px;
+    text-decoration:none;
+    color:#fff;
+}
+
+/*Mediante margin y padding podemos darle el estilo adecuado para que encaje segun la pagina web a replicar*/
+
+/*Usamos porcentajes en las medidas de margin  y padding para darle la carácteristica más responsive a nuestra pagina web*/
+
+.navbar_list{
+    width: 370px;
+    float: right;
+}
+
+.navbar_list_element{
+    display:inline;
+    text-decoration:none;
+    margin: 7px;
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+/*------------------------header-------------------------------*/
+/* Usamos la propiedad text-transform: capitalize; para evidenciar que en nuestra estructura HTML, la data puede ir de cualquier forma y haciendo de la hoja de estilos CSS se cambia la visualizacion de este contenido al interpretarse por el navegador*/
+
+.container_header{
+    position: relative;
+    /*width:100%;*/
+    height: auto;
+    background-color: #18bc9c;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.header_profile{
+    text-align: center;
+    position: relative;
+    left:2px;
+    top:197px;
+
+}
+
+.header_welcome{
+    text-align: center;
+    position:relative;
+    top:201px;
+    font-size: 78px;
+    font-weight: 700px;
+}
+
+.header_phrase{
+    font-size: 22px;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
