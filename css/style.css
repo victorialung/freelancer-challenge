@@ -27,8 +27,6 @@ img{
 /*- usamos POSITION:FIXED para darle el efecto caracteristico a la barra de navegación
 -Fijamos el padding en nav porque creemos que al ser el contenedor principal , debe de cimentar los margenes de comportamiento de los elementos hijo.
 */
-
-
 nav{
     position: fixed;
     z-index: 1000;
@@ -78,7 +76,7 @@ float: left;
 }
 
 /*------------------------header-------------------------------*/
-/* Usamos la propiedad text-transform: capitalize; para evidenciar que en nuestra estructura HTML, la data puede ir de cualquier forma y haciendo de la hoja de estilos CSS se cambia la visualizacion de este contenido al interpretarse por el navegador*/
+/* Usamos la propiedad text-transform: capitalize; para evidenciar que en nuestra estructura HTML, la data puede ir de cualquier forma y haciendo uso de la hoja de estilos CSS se puede modificar la visualizacion de este contenido al interpretarse en el navegador*/
 
 .container_header{
     position: relative;
@@ -93,7 +91,6 @@ float: left;
     position: relative;
     left:2px;
     top:197px;
-
 }
 
 .header_welcome{
