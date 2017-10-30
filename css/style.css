@@ -94,6 +94,10 @@ header{
     text-align: center;
 }
 
+header_intro{
+    text-align: center;
+}
+
 .header_welcome{
     text-align: center;
     font-size: 78px;
@@ -105,8 +109,27 @@ header{
     padding: 2px 0px 0px 18px;
 }
 
+.header_icon{
+    text-align: center;
+    padding-top:8px;
+}
+
+.header_icon_star{
+    max-width: 251px;
+    border-width: 2px;
+    border-style:solid;
+}
+
+
 .icon-star-full::after{
+    display:inline-block;
+    position:relative;
+    bottom:32px;
+    padding:6px;
+    text-align: center;
     content: "\e9d9";
+    font-size:32px;
+    background-color: #18bc9c;
 
 }
 

@@ -24,6 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-star-full:before {
+.icon-star-full:after {
   content: "\e9d9";
 }
