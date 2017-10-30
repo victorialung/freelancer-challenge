@@ -152,7 +152,7 @@ header{
 }
 
 .portfolio_welcome_span {
-    font-size: 52px;;
+    font-size: 52px;
 }
 
 .portfolio_icon_zoom{
@@ -163,7 +163,7 @@ header{
     text-align: center;
 }
 
-.portfolio_presentation span:after{
+.portfolio_presentation span::after{
     display:inline-block;
     position:relative;
     bottom: 35px;
@@ -183,8 +183,64 @@ header{
     column-gap: 2px;
 }
 
-figure{
+/*-----------------------about-------------------------------------*/
+
+.about_presentation{
+    height: auto;
+    padding: 180px 250px 200px 250px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #18bc9c;
+    color:#fff;
+    
+}
+
+.about_welcome_span{
+    display: block;
+    text-align: center;
+    font-size: 52px;
+}
+
+.about_text{   
+    padding: 5px;
+    column-count: 2;
+    column-gap: 2px;
+}
+
+.about_text p{
     margin: 0px;
-    padding: 10px 15px 10px 15px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.about_icon_zoom{
+    max-width: 250px;
+    border-width: 2px;
+    border-style:solid;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.about_icon_zoom span::after{
+    display:inline-block;
+    position:relative;
+    bottom: 35px;
+    padding:6px;
+    text-align: center;
+    font-size:32px;
+}
+
+button{
+    background-color: #18bc9c;
+    padding: 14px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-size:24px;
+    text-transform: capitalize;
+    
+}
+.icon-download2::before{
+    content: "\e9c5";
+    color:#fff;
 }
 
