@@ -144,7 +144,7 @@ header{
 /*-------------------------portfolio---------------------------------*/
 .portfolio_presentation{
     height: auto;
-    padding: 86px 0px 200px 0px;
+    padding: 90px 0px 122px 0px;
     text-align: center;
     font-family: 'Montserrat',sans-serif;
     background-color: #fff;
@@ -168,7 +168,7 @@ header{
 .portfolio_presentation span::after{
     display:inline-block;
     position:relative;
-    bottom: 35px;
+    right: 4px;
     padding:6px;
     text-align: center;
     font-size:32px;
@@ -176,16 +176,22 @@ header{
 }
 
 .portfolio_container{
-    margin: 0px;
+    padding: 0px 157px 0px 157px;
 }
 
 /*mediante la propiedad column-count podemos ubicar a la imagenes dentro de su contenedor de forma homogena y simetrica*/
 
 .portfolio_images{
-    padding: 10px;
     column-count: 3;
-    column-gap: 2px;
+    column-gap: 25px;
+    margin-top: 10px;
 }
+
+figure{
+    margin:0px;
+    padding:0px;
+}
+
 
 /*-----------------------about-------------------------------------*/
 
@@ -224,13 +230,14 @@ header{
     text-align: center;
 }
 
-.about_icon_zoom span::after{
+.about_presentation span::after{
     display:inline-block;
     position:relative;
-    bottom: 35px;
+    left: 520px;
     padding:6px;
     text-align: center;
     font-size:32px;
+    background-color: #18bc9c;
 }
 
 button{
