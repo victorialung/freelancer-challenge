@@ -142,34 +142,49 @@ header{
 }
 
 /*-------------------------portfolio---------------------------------*/
-portfolio{
+.portfolio_presentation{
     height: auto;
-    padding: 200px 0px 200px 0px;
+    padding: 86px 0px 200px 0px;
+    text-align: center;
     font-family: 'Montserrat',sans-serif;
     background-color: #fff;
     color:#2c3e50;
 }
 
-.portfolio_welcome {
-    display: block;
-    padding: 2px 0px 0px 18px;
-    text-align: center;
-    font-size: 78px;
+.portfolio_welcome_span {
+    font-size: 52px;;
 }
 
 .portfolio_icon_zoom{
     max-width: 250px;
     border-width: 2px;
     border-style:solid;
-    margin-top: 16px;
+    margin-top: 11px;
+    text-align: center;
 }
 
-.portfolio_welcome span:after{
+.portfolio_presentation span:after{
     display:inline-block;
     position:relative;
-    bottom:120px;
+    bottom: 35px;
     padding:6px;
     text-align: center;
     font-size:32px;
     background-color: #fff;
 }
+
+.portfolio_container{
+    margin: 0px;
+}
+
+.portfolio_images{
+    padding: 10px;
+    column-count: 3;
+    column-gap: 2px;
+}
+
+figure{
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+}
+
