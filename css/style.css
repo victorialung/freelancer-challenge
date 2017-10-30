@@ -94,43 +94,38 @@ header{
     text-align: center;
 }
 
-header_intro{
+.header_intro{
     text-align: center;
 }
 
 .header_welcome{
     text-align: center;
-    font-size: 78px;
     font-weight: 700px;
 }
 
 .header_welcome_span  {
     display: block;
     padding: 2px 0px 0px 18px;
-}
-
-.header_icon{
-    text-align: center;
-    padding-top:8px;
+    font-size: 78px;
 }
 
 .header_icon_star{
-    max-width: 251px;
+    max-width: 250px;
     border-width: 2px;
     border-style:solid;
+    margin-top: 16px;
 }
 
-
+/*----------------USO PSEUDOELEMENTO ::AFTER-----------------------------------------*/
 .icon-star-full::after{
     display:inline-block;
     position:relative;
-    bottom:32px;
+    bottom:33px;
     padding:6px;
     text-align: center;
     content: "\e9d9";
     font-size:32px;
     background-color: #18bc9c;
-
 }
 
 /* Usamos la propiedad text-transform: capitalize; para evidenciar que en nuestra estructura HTML, la data puede ir de cualquier forma y haciendo uso de la hoja de estilos CSS se puede modificar la visualizacion de este contenido al interpretarse en el navegador*/
@@ -139,4 +134,10 @@ header_intro{
     font-size: 22px;
     font-weight: 300px;
     text-transform: capitalize;
+}
+
+.header_phrase h3{
+    margin:0px;
+    position:relative;
+    bottom:23px;
 }
