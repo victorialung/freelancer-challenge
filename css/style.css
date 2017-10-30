@@ -116,7 +116,7 @@ header{
     margin-top: 16px;
 }
 
-/*----------------USO PSEUDOELEMENTO ::AFTER-----------------------------------------*/
+/*uso pseudoelemento ::after*/
 .icon-star-full::after{
     display:inline-block;
     position:relative;
@@ -163,6 +163,8 @@ header{
     text-align: center;
 }
 
+/*posicionamos el pseudoelemento con position:relative y poder ubicarlo segun los margenes de la replica  aseguir*/
+
 .portfolio_presentation span::after{
     display:inline-block;
     position:relative;
@@ -176,6 +178,8 @@ header{
 .portfolio_container{
     margin: 0px;
 }
+
+/*mediante la propiedad column-count podemos ubicar a la imagenes dentro de su contenedor de forma homogena y simetrica*/
 
 .portfolio_images{
     padding: 10px;
@@ -239,6 +243,7 @@ button{
     text-transform: capitalize;
     
 }
+/* uso de pseudoelemento ::before*/
 .icon-download2::before{
     content: "\e9c5";
     color:#fff;
