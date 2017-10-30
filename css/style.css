@@ -123,7 +123,6 @@ header{
     bottom:33px;
     padding:6px;
     text-align: center;
-    content: "\e9d9";
     font-size:32px;
     background-color: #18bc9c;
 }
@@ -140,4 +139,37 @@ header{
     margin:0px;
     position:relative;
     bottom:23px;
+}
+
+/*-------------------------portfolio---------------------------------*/
+portfolio{
+    height: auto;
+    padding: 200px 0px 200px 0px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #fff;
+    color:#2c3e50;
+}
+
+.portfolio_welcome {
+    display: block;
+    padding: 2px 0px 0px 18px;
+    text-align: center;
+    font-size: 78px;
+}
+
+.portfolio_icon_zoom{
+    max-width: 250px;
+    border-width: 2px;
+    border-style:solid;
+    margin-top: 16px;
+}
+
+.portfolio_welcome span:after{
+    display:inline-block;
+    position:relative;
+    bottom:120px;
+    padding:6px;
+    text-align: center;
+    font-size:32px;
+    background-color: #fff;
 }
