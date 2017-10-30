@@ -15,6 +15,7 @@ Nuestra  web **Freelancer** representa el primer trabajo de reto de código corr
 
 3. Sólo replicar de la página web lo que se ha enseñado en clase.
 
+
 ## Objetivo
 
 El reto consiste en maquetar la web **AppLove** haciendo uso de lo enseñado en clase: estructura de carpetas, html semántico, box-sizing, selectores,control de flujo, positioning, float y z-index.
