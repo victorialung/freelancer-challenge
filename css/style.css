@@ -9,7 +9,8 @@
 body {
     margin: 0 auto;
     line-height: 1.71429;
-    outline: 1px solid rgb(99, 8, 99)
+    outline: 1px solid rgb(99, 8, 99);
+    font-family: 'Lato', sans-serif;
 }
 
 /*Se inserta margen general en cero para no tener inconvenientes con los margenes que se asignan por defecto a las etiquetas de nivel bloque*/
